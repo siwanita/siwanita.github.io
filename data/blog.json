@@ -1,0 +1,23 @@
+{
+	"title" : "Blog",
+	"blog" : [
+		{
+			"icon" : "code",
+			"title" : "siwanita.no",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+                        "href" : "https://www.siwanita.no"
+		},
+		{
+			"icon" : "code",
+			"title" : "Undergroundshop.no",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+                        "href" : "https://www.undergroundshop.no"
+		},
+		{
+			"icon" : "code",
+			"title" : "Kroneauksjon.no",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+                        "href" : "https://www.kroneauksjon.no"
+		}
+	]
+}

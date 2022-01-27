@@ -1,0 +1,17 @@
+[
+    {
+        "title":"siwanita",
+        "img":"placeholder.jpg",
+        "project_url":"projects/siwanita"
+    },
+    {
+        "title":"kroneauksjon",
+        "img":"placeholder.jpg",
+        "project_url":"projects/kroneauksjon"
+    },
+    {
+        "title":"undergroundshop",
+        "img":"placeholder.jpg",
+        "project_url":"projects/undergroundshop"
+    }
+]

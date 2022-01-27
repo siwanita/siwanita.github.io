@@ -1,0 +1,22 @@
+{{ $allprojects := .Site.Data.allprojects }}
+<section>
+  <h2 class="heading">{{ $allprojects.title }}</h2>
+
+  <div class="row">
+    {{ range $index, $element := $allprojects.projects }}
+    <div class="col-lg-4 col-md-4 col-12 mb-3">
+        <div class="card p-4">
+          <a class="mb-3" href="{{ $element.href }}">
+            <div class="featuredImage rounded" style="background-size:cover;background-position:center;background-image: url('https://demo.uicard.io/hugo-uilite-portfolio-demo/images/work/work1.jpg'); height: 180px;background-color:#fbfbfb;">   
+            </div>
+          </a>
+          
+          <a href="{{ $element.href }}"><h3 class="h4 font-weight-bold text-dark">{{ $element.title }}</h3></a>
+          
+          <div>
+          </div>
+        </div>
+    </div>
+    {{ end }}
+  </div>
+</section>

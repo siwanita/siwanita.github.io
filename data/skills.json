@@ -1,0 +1,9 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"Laravel" : "50",
+		"Vue" : "50",
+		"Rust" : "50",
+		"Flutter" : "50"
+	}
+}

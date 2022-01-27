@@ -1,0 +1,10 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-uilite"]
+	path = themes/hugo-uilite
+	url = https://github.com/uicardiodev/hugo-uilite
+[submodule "siwanita.github.io"]
+	path = siwanita.github.io
+	url = git@github.com:siwanita/siwanita.github.io.git
+	branch = master

@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "header.html" . }}
+
+<!-- portfolio -->
+<section class="pt-5">
+  <div class="container">
+    <h1 class="text-center py-4">{{.Title}}</h1>
+
+    <div class="row">
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-md-4 col-12 mb-3">
+        <div class="card">
+          <a class="mb-3" href="{{ .Permalink }}">
+            <div class="featuredImage rounded"
+              style="background-size:cover;background-position:center;background-image: url('https://demo.uicard.io/hugo-uilite-portfolio-demo/images/work/work3.jpg'); height: 180px;background-color:#fbfbfb;">
+            </div>
+          </a>
+
+          <a href="{{ .Permalink }}">
+            <h3 class="h4 font-weight-bold text-dark">{{ .Title }}</h3>
+          </a>
+          <p class="text-muted">{{ .Description }}</p>
+          <div>
+
+
+            <div class="float-right">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="text-center mt-5 bs">
+    <a href="https://github.com/siwanita" class="btn btn-lg btn-dark-faded bs">View on GitHub</a>
+  </div>
+</section>
+<!-- /portfolio -->
+{{ partial "footer-scripts.html" . }}
+{{ end }}

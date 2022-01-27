@@ -1,0 +1,4 @@
+baseURL = "https://siwanita.no/"
+languageCode = "en-us"
+title = "siwanita.no"
+theme = "hugo-uilite"

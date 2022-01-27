@@ -1,0 +1,29 @@
+{
+	"title" : "Projects",
+	"projects" : [
+		{
+			"icon" : "code",
+			"title" : "siwanita.no",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+                        "href" : "/projects/siwanita"
+		},
+		{
+			"icon" : "code",
+			"title" : "Undergroundshop.no",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+                        "href" : "/projects/undergroundshop"
+		},
+		{
+			"icon" : "code",
+			"title" : "Kroneauksjon.no",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+                        "href" : "/projects/kroneauksjon"
+		},
+		{
+			"icon" : "code",
+			"title" : "My Health",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. ",
+                        "href" : "/projects/myhealth"
+		}
+	]
+}
